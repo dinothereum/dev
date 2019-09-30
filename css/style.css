@@ -485,7 +485,8 @@ body td {
   background-color: #e2e0de;
   color: #363533;
 }
-.light h1 {
+.light h1,
+.light .h1 {
   color: #d44375;
 }
 .light #header #nav {
@@ -537,7 +538,8 @@ body td {
   background-color: #fafafa;
   color: #22272a;
 }
-.classic h1 {
+.classic h1,
+.classic .h1 {
   color: #cc2a41;
 }
 .classic #header #nav {
@@ -1775,4 +1777,7 @@ code {
 .title-inline .language-link {
   padding-left: 10px;
   font-size: 12.5px;
+}
+section #comments {
+  margin-top: 100px;
 }
